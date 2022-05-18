@@ -1,0 +1,69 @@
+body{
+    background: radial-gradient(blue,gray, pink, orange);
+    color:burlywood;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 35px;
+}
+.head{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.btn{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button1{
+    font-size: 20px;
+    padding:  30px;
+    border-radius: 15px;
+    background-color: linear-gradient(to green,pink,skyblue);
+    color: goldenrod;
+    border: none;
+    cursor: pointer;
+    font-style: oblique;
+    border: 1px solid black;
+
+}
+.button1:hover{
+    background-color: greenyellow;
+}
+.button2{
+    font-size: 20px;
+    padding:  30px;
+    border-radius: 15px;
+    background-color:linear-gradient(to green,pink,skyblue);
+    color: goldenrod;
+    border: 1px solid black;
+    cursor: pointer;
+    font-style: oblique;
+}
+.button2:hover{
+    background-color: yellowgreen;
+}
+span{
+    position: relative;
+    top: 5rem;
+}
+.left{
+    position: relative;
+    float: left;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 38%;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 30px ;
+}
+.right{
+    position: relative;
+    float: right;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 38%;
+    border-radius: 10px;
+    padding: 30px 15px;
+    margin-right: 5%;
+}
